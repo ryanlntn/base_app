@@ -1,2 +1,2 @@
-base-app
+base_app
 ========
