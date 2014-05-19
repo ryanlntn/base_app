@@ -10,6 +10,9 @@ gem 'coffee-rails', '~> 4.0.0'
 gem 'jquery-rails'
 gem 'jbuilder', '~> 2.0'
 
-group :development do
+group :development, :test do
   gem 'spring'
+  gem 'guard'
+  gem 'guard-minitest'
+  gem 'rb-fsevent' if `uname` =~ /Darwin/
 end
